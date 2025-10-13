@@ -45,5 +45,5 @@ This is a **Library Book Borrowing System** developed in Python. The program rea
 - Empty lines, missing data, or non-numeric book counts are **skipped with a message**.  
 - Fines:
   - Up to 3 books → within limit
-  - 4–6 books → AED 5
-  - More than 6 books → AED 10
+  - 4–6 books → $5
+  - More than 6 books → $10
