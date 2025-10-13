@@ -16,7 +16,7 @@ All members tested and debugged the program together.
 # Library Book Borrowing System
 # This program processes a CSV file containing student names and
 # the number of books they borrowed. It checks borrowing limits,
-# calculates fines in AED, and generates a summary report.
+# calculates fines in USD, and generates a summary report.
 
 def check_limit(borrowed):
     if borrowed < 0:
