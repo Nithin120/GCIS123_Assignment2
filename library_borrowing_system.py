@@ -24,9 +24,9 @@ def check_limit(borrowed):
     elif borrowed <= 3:
         return "Within limit"
     elif borrowed <= 6:
-        return "Over limit: Fine AED 5"
+        return "Over limit: Fine $5"
     else:
-        return "Over limit: Fine AED 10"
+        return "Over limit: Fine $10"
 
 
 def process_borrowers(filename):
