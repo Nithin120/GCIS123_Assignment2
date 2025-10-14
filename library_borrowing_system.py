@@ -53,6 +53,7 @@ def process_borrowers(filename):
                 try:
                     borrowed = int(books_str)
                 except ValueError:
+                    print("Error: Non-numeric value for", name)
                     continue
 
                 # Check limit and print status
