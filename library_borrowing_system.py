@@ -84,12 +84,10 @@ def calculate_average_books(filename):
                 if ',' in line:
                     parts = line.split(',')
                     if len(parts) < 2:
-                        print("Skipping invalid line:", line)
                         continue
                     name = parts[0].strip()
                     books_str = parts[1].strip()
                 else:
-                    print("Skipping invalid line:", line)
                     continue
 
                 try:
@@ -98,7 +96,6 @@ def calculate_average_books(filename):
                         total_books += books
                         count += 1
                 except ValueError:
-                    print("Skipping student due to invalid number of books:", name)
                     continue
 
         if count > 0:
